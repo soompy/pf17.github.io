@@ -2997,6 +2997,7 @@
     <session id="-1804587260">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -3071,7 +3072,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229000" />
+    <option name="totallyTimeSpent" value="439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="552" y="23" width="1128" height="1027" extended-state="0" />
