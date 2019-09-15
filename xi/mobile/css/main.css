@@ -1,0 +1,73 @@
+body{background: #e5edf0;}
+#visual{position: relative;width: 100%;height: 150px;}
+#visual .inner-wrap{margin: auto;}
+#visual .banner{}
+#visual .banner li{background-position: 800px 100px;height: 150px;position: absolute;left: 0;top: 0;width: 100%;background-repeat: no-repeat;background-position: 0 60%;background-size:cover;}
+#visual .banner li:nth-child(1){background-image: url(../images/main/kimhae.jpg);}
+#visual .banner li:nth-child(2){background-image: url(../images/main/yeoksam.jpg);}
+#visual .banner li:nth-child(3){background-image: url(../images/main/lake.jpg);background-position: 0 0;}
+#visual .banner li:nth-child(4){background-image: url(../images/main/daejeon.jpg);}
+#visual .banner li:nth-child(5){background-image: url(../images/main/youngjong.jpg);}
+
+
+#visual .paging{position: absolute;left: 50%;bottom: 20px;margin-left: -25px;z-index: 100;}
+#visual .paging li{margin-right: 3px;width: 10px;height: 10px;border-radius:50%;background:wheat;float: left;}
+#visual .paging li.on{width: 20px;height: 10px;border-radius: 25px;background:pink;}
+
+#container{height: 100%;}
+#container:after{display: block;clear: both;content:"";}
+#content .tab-menu{position: relative;width: 100%;height: 215px;margin-bottom: 45px;background: #fff;}
+#content .tab-menu dl{}
+#content .tab-menu dd{width: 180px;height: 40px;float: left;text-align: center;}
+#content .tab-menu dd a{line-height: 2;font-size: 20px;font-family: 'nanumB';}
+
+#content .news-cal{position: relative;width: 100%;}
+#content .news{position: absolute;left: 0;top: 30px;display: none;width: 100%;height: 160px;margin-top: 5px;}
+#content .news span{float: left;}
+#content .news em{font-size: 14px;float: right;}
+#content .news span a{font-size: 14px;}
+
+
+#content .cal{width: 100%;height: 160px;}
+#content .news-cal .month{height: 160px;}
+#content .news-cal .month h3{text-align: center;padding: 5px;font-family: 'nanumB';}
+#content .news-cal .month span{font-family: 'nanumB';}
+#content .cal .apr{float: left;width: 50%;}
+#content .cal .apr h3{font-size: 16px;}
+#content .cal .apr span{margin-right: 5px;}
+#content .cal .apr em{}
+#content .cal .apr em a{}
+#content .cal .may{float: right;width: 50%;}
+#content .cal .may h3{font-size: 16px;}
+#content .cal .may span{margin-right: 5px;}
+#content .cal .may em{}
+#content .cal .may em a{}
+#content .cal .may{float: right;}
+
+#content .more{position: absolute;
+left: 0;top: 165px;width: 100%;height: 50px;border-top: 1px solid #000;border-bottom: 1px solid #000;}
+#content .more em{}
+#content .more em a{display: block;text-align: center;line-height: 2;}
+#content .more p{text-align: center;}
+#content .more p span{}
+
+#content .service-wrap{width: 100%;height: 320px;padding-top: 45px;}
+#content .service{width: 100%;height: 100px;position: relative;margin: 10px 0 10px 0;background: #fff;}
+#content .service img{width: 80px;height: 80px;padding: 10px 20px;}
+#content .service .info{position: absolute;left: 120px;top: 15px;}
+#content .service .info p{font-family: 'nanumB';margin-bottom: 5px;}
+#content .service .info span{background: #fec142;border-radius:20px;padding: 5px;}
+#content .service .info span a{}
+
+#content .event-banner{position: relative;width: 360px;height: 120px;margin: 15px 0 15px 0;}
+#content .event-banner .event{width: 720px;height: 120px;}
+#content .event-banner .event li{width: 360px;height: 120px;float: left;background-repeat: no-repeat;background-position: 0 0;font-family:'nanumB';}
+#content .event-banner .event li:nth-of-type(1){background-image: url(../images/main/event-banner1.png);}
+#content .event-banner .event li:nth-of-type(2){background-image: url(../images/main/event-banner2.png);}
+#content .event-banner .event li p{text-align: center;color:#FFEB3B;}
+
+#content .event-banner .paging{position: absolute;bottom:3%;left: 50%;margin-left: -10px;}
+#content .event-banner .paging li{float: left;width: 12px;height: 12px;border-radius:50%;margin: 5px;background: #FFCDD2;}
+#content .event-banner .paging li.on{background: #E53935;}
+
+

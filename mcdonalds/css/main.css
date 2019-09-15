@@ -1,0 +1,106 @@
+.inner-1300{width: 1300px;height: 100%;box-shadow:5px 5px 5px;margin: auto;}
+.mac{width: 100%;height: 780px;background: #fff;}
+.mac h2{text-align: center;font-size: 35px;color:#fda426;font-family:'nanumB';padding-top: 40px;}
+
+#container{height: 100%;}
+#container:after{display: block;clear: both;content:"";}
+
+#content0{}
+.minions{position: relative;width: 50%;height: 100%;float: left;background: url(../images/main/sky.jpg) 0 0 no-repeat;background-size: cover;}
+.summertitle{padding: 30px 90px;}
+.minionmeal img{position: absolute;left: 5%;bottom: 5%;animation: banana 8s linear infinite;}
+@keyframes banana{
+	0%{left: 5%;bottom: 5%;}
+	20%{left: 15%;bottom: 10%;}
+	40%{left: 5%;bottom: 5%;}
+	60%{left: 15%;bottom: 10%;}
+	80%{left: 5%;bottom: 5%;}
+	100%{left: 15%;bottom: 10%;}
+}
+.newmenu{position: absolute;left: 15%;}
+.banana{margin: 20px 45%;}
+.newmenu div{width: 40px;height: 40px;padding: 20px;text-align: center;font-size: 20px;line-height: 2;font-weight: bold;color: #fde673;background: #015383;border-radius: 50%;}
+
+.model{position: relative;float: right;width: 50%;height: 100%;background: #000;}
+.signiture-burger img{position: absolute;left: 15%;top: 0;z-index: 100;}
+.signiture-logo{position: absolute;left: 0;top: 0;}
+.signiture-logo p{width: 260px;height: 60px;background: #b70707;color:#fff;font-size: 20px;text-align: center;line-height: 3;}
+.waffle img{position: absolute;right: 25%;top: 34%;opacity: 0;}
+.waffle h3{position: absolute;right: 41%;top: 17%;color: #f2e3a8;font-size: 30px;font-family: 'nanumB';}
+.waffle span{position: absolute;right: 10%;top: 23%;font-size: 22px;font-family: 'nanumB';color: #fff;}
+.waffle em{position: absolute;bottom: 12%;color: #fff;font-size: 18px;padding: 0 140px;}
+.waffle strong{font-size: 22px;color: #f2e3a8;}
+
+#content1{background: #edeeef;overflow: hidden;}
+.menu{position: relative;width: 3450px;height: 580px;margin-top: 80px;}
+.menu li{position: relative;float: left;margin: 50px;width: 400px;height: 515px;}
+.menu li div{position: absolute;left: 0;top: 245px;width: 400px;height: 60px;background: #fda426;}
+.menu li div.on{background: #b70707;}
+
+.menu li img{position: absolute;left: 16%;top: 0;width: 280px;height: 280px;z-index: 100;}
+.menu li p{position: absolute;left: 0;top: 310px;color:#5f3b2f;font-size: 20px;margin-top: 15px;font-family: 'nanumB';line-height: 2.5;}
+.menu li p:after{content:"";display: block;width: 400px;height: 3px;background: #5f3b2f;}
+.menu li em{position: absolute;left: 0;top: 395px;line-height: 1.4;font-size: 16px;}
+
+#content2{position: relative;}
+#content2 iframe{position: absolute;left: 0;top: 0;z-index: 100;}
+
+#content3{position: relative;overflow: hidden;background: url(../images/main/happy-bg.png) no-repeat 0 0;background-size:cover;}
+#content3 h2{position: absolute;left: 0;top: -15.5%;width: 100%;height: 230px;border-radius:48%;line-height: 9.5;background: #35a634;color:#fff;}
+.morning-set{position: absolute;left: 33%;top: 13%;width: 600px;height: 500px;}
+.morning-set li{padding: 16px;}
+.morning-set li img{transform:scale(0.8);}
+.morning-set li img.on{transform:scale(1.2);}
+
+.happymeal{position: absolute;left: 33%;bottom: 35px;}
+.happymeal li{cursor:pointer;margin: 10px;text-align: center;float: left;font-size: 30px;color:#555;}
+.happymeal li.on{font-size: 40px;color:#694839;font-family: 'nanumB';}
+.happymeal li:after{display: block;content:"";width: 200px;height: 4px;margin-top: 10px;background: #999;}
+.happymeal li.on:after{background: ;background: #ffa827;}
+
+#content4{}
+#content4 ul{}
+#content4 ul li{position: relative;float: left;width: 50%;height: 475px;}
+#content4 ul li p{font-family: 'nanumB';font-size: 22px;margin: 25px 100px;line-height:1.5;color:#fff;}
+#content4 ul li span{font-size: 20px;font-family: 'nanumB';display: block;}
+#content4 ul li.on img{transition:1s;transform:scale(1.1);}
+#content4 ul li:nth-of-type(1){background: #bd041b;color:#fff;}
+.onion{position: absolute;left: 30%;top: 120px;transform:rotate(15deg);}
+.spicy{position: absolute;left: 30%;top: 65px;}
+#content4 ul li:nth-of-type(2){background: #2292da;}
+#content4 ul li:nth-of-type(2) img{position: absolute;left: 19%;top: 125px;}
+#content4 ul li:nth-of-type(2) span{color:#cbe7f6;text-align: center;}
+#content4 ul li:nth-of-type(2) p{color:#fff;text-align: center;}
+#content4 ul li:nth-of-type(3){background: #ff6714;}
+.cafe-logo{position: absolute;left: 55%;top: 115px;}
+.ice-coffee{position: absolute;left: 20%;top: 120px;}
+#content4 ul li:nth-of-type(3) p{position: absolute;left: 52%;top: 200px;}
+#content4 ul li:nth-of-type(3) span{position: absolute;left: 55%;top: 270px;color:#fff;}
+#content4 ul li:nth-of-type(4){background: #a7cd66;background-image: url(../images/main/tomatoes.png);background-repeat: repeat-x;background-position: 30% 35%;}
+#content4 ul li:nth-of-type(4) img{position: absolute;left: 30%;bottom: 40px;}
+#content4 ul li:nth-of-type(4) p{font-size: 25px;color:#4E342E;text-align: center;line-height: 1;}
+#content4 ul li:nth-of-type(4) span{color:#4E342E;text-align: center;display: block;}
+#content4 ul li:nth-of-type(4) em{color:#e92127;font-size: 30px;}
+
+.map{position: relative;float: left;width: 55%;height: 100%;background: url(../images/main/road.png) no-repeat 0 0;background-size: 101%;}
+.map img{position: absolute;left: 405px;top: 135px;transform:rotateY(-160deg);animation: drive 8s linear infinite;}
+@keyframes drive{
+	0%{transform:rotateY(-160deg);left: 405px;top: 145px}
+	10%{transform:rotateY(-160deg);left: 405px;top: 145px}
+	40%{transform:rotateY(-160deg);left:10px;top:390px}
+	50%{transform:rotateY(-80deg);left:45px;top:480px}
+	65%{transform:rotateY(0deg);left:45px;top:480px}
+	90%{transform:rotateY(0deg);left:400px;top:705px}
+	100%{transform:rotateY(0deg);left:400px;top:705px}
+}
+
+.info{position: relative;float: right;width: 45%;height: 100%;background: #5D4037;}
+.drive{position: absolute;left: 0;top: 88px;z-index: 20;padding: 15px;width: 320px;height: 170px;background: #FFCCBC;}
+.bi{position: absolute;right: 0;top: 10px;}
+#content5 h3{font-size: 20px;color:#5a1100;font-family: 'nanumB';padding: 15px 10px;}
+#content5 p{font-size: 17px;line-height: 1.5;}
+#content5 span{color:#b70707;font-family: 'nanumB';}
+.side-model{position: absolute;bottom: 0;left: 23%;}
+.good{position: absolute;right: 0;bottom: 0;width: 351px;height: 465px;padding: 30px;background: #FFF59D;}
+.good p{color:#b70707;font-family: 'nanumB';font-size: 20px;}
+.good em{line-height: 2;font-size: 17px;}

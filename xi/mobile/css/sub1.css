@@ -1,0 +1,36 @@
+/* building */  /* 모바일 */
+#visual{position: relative;
+background-image: url(../images/sublayout/building-visual.png);
+background-repeat: no-repeat;background-position: 50% 10%;background-size:cover;}
+#visual p{position: absolute;left: 20%;top: 20%;color: #000;font-size: 20px;font-family: 'nanumB';}
+#container{height: 100%;}
+#container:after{display: block;content:"";clear: both;}
+#content{width: 100%;}
+#content .inner{width: 100%;}
+#content .bar{width: 100%;}
+#content .bar li{width: 25%;height: 50px;background: #fff;float: left;font-size: 18px;text-align: center;line-height: 3;}
+#content .bar li.on{font-family: 'nanumB';border-bottom: 2px solid #005067;}
+#content .building-info{}
+#content .building-info .info{padding-bottom: 50px;}
+#content .building-info .info img{padding: 20px 0 20px 0;}
+#content .building-info .info img:first-child{padding: 0 0 20px 0;}
+#content .building-info .info h3{font-size: 18px;font-family: 'nanumB';line-height: 2;}
+#content .building-info .info p{font-size: 16px;line-height: 2;}
+
+
+/* apt */
+#visual{position: relative;
+background-image: url(../images/sublayout/building-visual.png);
+background-repeat: no-repeat;background-position: 50% 10%;background-size:cover;}
+#visual p{position: absolute;left: 20%;top: 20%;color: #000;font-size: 20px;font-family: 'nanumB';}
+#container{height: 100%;}
+#container:after{display: block;content:"";clear: both;}
+#content{width: 100%;}
+#content .apt-info{}
+#content .apt{margin-bottom: 40px;}
+#content .apt img{width: 100%;padding: 20px 0 20px 0;}
+#content .apt img:first-child{padding: 0 0 20px 0;}
+#content .apt h3{font-size: 18px;font-family: 'nanumB';line-height: 2;}
+#content .apt p{font-size: 16px;line-height: 2;}
+#content .apt span{width: 50%;float: left;height: 50px;border: 1px solid #333;box-sizing:border-box;background:#fff;text-align: center;}
+#content .apt span a{font-size: 16px;color: #333;line-height: 3;}

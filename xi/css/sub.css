@@ -1,0 +1,206 @@
+
+
+/* builiding */
+
+#content .con-building{
+	margin-top: 20px;
+}
+#content .con-building article{
+	width: 395px;
+	height: 550px;
+	float: left;
+}
+#content .con-building article:nth-child(odd){
+	padding-right: 80px;
+}
+#content .con-building img{}
+#content .con-building h3{
+	font-family: 'nanumB';
+	font-size: 20px;
+	padding: 20px 0 20px 0;
+}
+#content .con-building .info{
+	width: 370px;
+}
+#content .con-building .info dd{}
+#content .con-building .info dd a{
+	font-size: 16px;
+}
+
+/* apt */
+#content .con-apt{}
+#content .con-apt .search{
+	margin: 0 0 40px 520px;
+}
+fieldset{float: left;}
+select{margin-left: 30px;}
+#content .con-apt .info{
+	float: left;
+	margin-bottom: 35px;
+	width: 385px;
+	height: 450px;
+}
+#content .con-apt .info1{
+	margin-right: 100px;
+}
+#content .con-apt .info img{}
+#content .con-apt .info h3{
+	font-size: 18px;
+	font-family: 'nanumB';
+	padding: 10px 0 10px 0;
+}
+#content .con-apt .info .sell{
+	width: 220px;
+	float: left;
+}
+#content .con-apt .info .sell dd{}
+#content .con-apt .info .button{}
+#content .con-apt .info .button p{
+	background: rgba(215,161,137,0.6);
+	padding: 3px;
+	float: right;
+	border-radius:25px;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	margin-bottom: 6px;
+}
+#content .con-apt .info .button p:hover{background: #d7a189;}
+
+
+
+/* service */
+
+#content{position: relative;}
+#content .con-top p{float: left;}
+#content .con-top em{
+	float: right;
+	border-radius:25px;
+	background: #fec142;
+	padding: 3px;
+	text-align: center;
+}
+#content .con-top em:last-of-type{
+	background: none;
+	padding: 0;
+	text-align: left;
+	padding: 20px 0 20px 0;
+	display: none;
+}
+
+
+
+#content .con-srv{}
+#content .con-srv figcaption{
+	font-size: 18px;
+	font-family: 'nanumB';
+	padding: 10px 0 10px 0;
+}
+#content .con-srv .point{
+	border: 1px solid #005067;
+	margin-bottom: 20px;
+}
+#content .con-srv .point .fir{
+	width: 15%;
+}
+#content .con-srv .point .sec{
+	width: *;
+}
+#content .con-srv .point thead{}
+#content .con-srv .point thead tr{
+	border: 1px solid #005067;
+	border-bottom: 1px solid #d6a089;
+}
+#content .con-srv .point thead tr th{
+	border: 1px solid #4d4d4d;
+	padding: 10px;
+}
+#content .con-srv .point tbody{}
+#content .con-srv .point tbody tr{
+	border: 1px solid #005067;
+	line-height: 2;
+}
+#content .con-srv .point tbody tr th{
+	border-right: 1px solid #4d4d4d;
+	padding: 14px;
+}
+#content .con-srv .point tbody tr td{}
+
+
+
+#content .con-srv .per{
+	border: 1px solid #005067;
+	margin-bottom: 20px;
+}
+#content .con-srv .per strong{}
+#content .con-srv .per thead{}
+#content .con-srv .per thead tr{
+	border: 1px solid #d6a089;
+	border-bottom: 1px solid #005067;
+}
+#content .con-srv .per thead tr th{
+	border: 1px solid #4d4d4d;
+	padding: 10px;
+}
+#content .con-srv .per tbody tr{line-height: 2;}
+#content .con-srv .per tbody tr:first-child{
+	border-bottom: 1px solid #005067;
+}
+#content .con-srv .per tbody tr th{
+	border-right: 1px solid #005067;
+}
+#content .con-srv .per tbody tr td{
+	border-right: 1px solid #005067;
+	padding: 14px;
+	text-align: center;
+}
+
+
+
+
+#content .con-srv .case{
+	border: 1px solid #4d4d4d;
+}
+#content .con-srv .case .house{width: 23%;}
+#content .con-srv .case .num{width: 23%;}
+#content .con-srv .case .per{width: 15%;}
+#content .con-srv .case .per2{width: 15%;}
+#content .con-srv .case .con{width: *;}
+#content .con-srv .case thead{}
+#content .con-srv .case thead tr{
+	border: 1px solid #4d4d4d;
+	border-bottom: 1px solid #005067;
+}
+#content .con-srv .case thead tr th{
+	border-right: 1px solid #005067;
+	padding: 10px;
+}
+#content .con-srv .case thead tr td{padding: 10px;}
+#content .con-srv .case tbody tr{line-height: 2;}
+#content .con-srv .case tbody tr th{
+	border-right: 1px solid #005067;
+	border-bottom: 1px solid #005067;
+}
+#content .con-srv .case tbody tr td{
+	border-right: 1px solid #005067;
+	border-bottom: 1px solid #005067;
+	padding: 14px;
+	text-align: center;
+}
+#content .con-srv .case strong{}
+
+#content .con-srv p{margin: 20px 0 20px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

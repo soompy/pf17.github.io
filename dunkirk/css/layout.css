@@ -1,0 +1,13 @@
+#header{width: 100%;height: 100px;}
+.inner{position: relative;width: 1400px;margin: auto;z-index: 100;}
+h1{position: absolute;left: 0;top: 30px;}
+#nav{position: absolute;right: 0;top: 25px;}
+#gnb li{float: left;margin: 20px;}
+#gnb li a{font-size: 17px;color: #fff;cursor:pointer;text-transform: uppercase;}
+
+#footer{width: 100%;height: 190px;background: #000;color: #fff;}
+#footer p{text-align: center;line-height: 2;font-size: 19px;}
+#footer .follow{padding: 30px 0 0;}
+#footer .sns{width: 100%;height: 50px;text-align: center;}
+#footer .fa{font-size: 25px;padding: 20px;transition:0.5s;}
+#footer .fa:hover{transform: scale(1.4);color: #f00;}

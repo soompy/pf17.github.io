@@ -1,0 +1,441 @@
+/*1 총장인사 introduce*/
+.floating-menu{position: absolute;right: 70px;bottom: 20%;}
+.floating-menu li{position: relative;width: 70px;height: 100px;background: #D7CCC8;border-bottom: 2px solid #f6f5f5;}
+.floating-menu li:nth-child(1){background-image: url(../images/layout/service.png);background-repeat: no-repeat;background-position: 50% 20%;}
+.floating-menu li:nth-child(2){background-image: url(../images/layout/campus.png);background-repeat: no-repeat;background-position: 50% 20%;}
+.floating-menu li:nth-child(3){background-image: url(../images/layout/fl-cau.png);background-repeat: no-repeat;background-position: 50% 20%;}
+.floating-menu li:nth-child(4){background: #6D4C41;border-bottom: none;background-image: url(../images/layout/top.png);background-repeat: no-repeat;background-position: 50% 30%;height: 50px;}
+.floating-menu li a{position: absolute;left: 0;top:45%;text-align: center;}
+.floating-menu li:nth-child(4) a{color:#fff;}
+#content{}
+#content .inner-1200{width: 1200px;margin: auto;position: relative;}
+.quick-bar{width: 100%;height: 40px;background: #fff;border-bottom: 2px solid #dbdcde;border-top: 2px solid #dbdcde;}
+.quick-bar ul{height: 40px;text-align: center;}
+.quick-bar ul li{position: relative;width: 225px;border-left: 2px solid #dbdcde;}
+.quick-bar ul li:nth-child(3){border-right: 2px solid #dbdcde;}
+.quick-bar ul li .fa-caret-down{font-size: 18px;position: absolute;right: 20px;top: 10px;}
+.quick-menu{width: 690px;height: 40px;margin: auto;}
+.quick-menu li > ul{float: left;width: 690px;border-right: 2px solid #dbdcde;}
+.quick-menu ul > li{float: left;width: 223px;height: 40px;}
+.quick-menu ul li a{line-height: 40px;font-size: 18px;}
+.quick-menu ul li ul{width: 225px;height: 170px;margin-left: -2px;}
+.quick-menu ul li ul li{width: 225px;height: 40px;border-bottom: 2px solid #dbdcde;z-index: 100;background: #fff;}
+.quick-menu ul li ul:nth-child(2) li{border-right: 2px solid #dbdcde;}
+
+.president{position: relative;width: 1200px;height: 450px;}
+.president .welcome{width: 620px;height: 450px;float: left;}
+.president p{float: left;font-size: 30px;margin: 50px 100px;}
+.president em:after{position: absolute;left: 80px;top: 150px;width: 600px;height: 3px;background:#0073b4;display: block;content:"";}
+.president span{margin: 0px 80px;float: left;font-size: 20px;}
+.president strong{display: block;content:"";width: 80px;height: 80px;border: 3px solid #ea2d2e;position: absolute;right: 60px;top: 100px;}
+.president img{float: right;margin: 50px 20px 80px 0;}
+.inner-1200 .greeting{margin-top: 80px;line-height: 2;font-size: 20px;}
+.inner-1200 h3{font-size: 30px;margin: 40px 0 20px 0;}
+.career{border: 1px solid #000;font-size: 18px;line-height: 2;}
+.career p{font-size: 30px;font-family: 'nanumB';}
+.career caption{font-size: 25px;font-family: 'nanumB';}
+.career thead tr th,.career tbody tr th,.work thead tr th,.work tbody tr th{background:#a7c2d1;}
+.career thead tr th,.career tbody tr th,.career tbody tr td{color:#000;border: 1px solid #666;}
+.work{font-size: 18px;line-height: 2;}
+.work tr th,#content .work tr td{border: 1px solid #000;}
+.work tr td,#content .career tr td{padding-left: 40px;}
+
+/*교육목적 목표 */
+.purpose{width: 1200px;height: 500px;}
+.purpose h2,#content .goals h2{font-family: 'nanumB';text-align: center;margin: 80px 0 40px 0;font-size: 30px;}
+.purpose .fa,#content .goals .fa{font-size: 30px;color:#f00;margin-right: 20px;}
+.purpose p,#content .goals p{font-size: 20px;line-height: 2;margin-bottom: 40px;}
+.purpose-list{}
+.purpose-list ul{}
+.purpose-list ul li{float: left;width: 200px;height: 200px;border-radius:50%;border: 1px solid #000;margin: 40px 19px 0 19px;font-size: 25px;line-height: 8;text-align: center;}
+.purpose-list ul li:nth-child(1){background: #ed1c24;color:#fff;border: 1px solid #ed1c24;}
+.purpose-list ul li:nth-child(2){background: #0073b4;border: 1px solid #0073b4;color:#fff;}
+.purpose-list ul li:nth-child(3){background: #9dacb5;border: 1px solid #9dacb5;}
+.purpose-list ul li:nth-child(4){background: #a8894b;border: 1px solid #a8894b;color:#fff;}
+.purpose-list ul li:nth-child(5){background: #dbdcde;border: 1px solid #dbdcde;}
+
+.framework{font-size: 18px;}
+.framework span{font-family: 'nanumB';line-height: 2;margin-right: 20px;}
+.framework em{margin-right: 40px;line-height: 2;}
+.mission span,#content .mission .fa{margin-top: 30px;}
+.mission .vision{width: 1200px;height: 200px;}
+.mission .vision > li{width: 300px;height: 200px;text-align: center;float: left;font-size: 18px;}
+.mission .vision li ul{margin: 12px;}
+.mission .vision li ul li{line-height: 2;text-align: left;}
+
+/*전공소개 major*/
+.major-btn{margin-bottom: 80px;}
+.major-btn li{background: #fff192;text-align: center;line-height: 1.7;float: left;width: 50%;height: 40px;font-size: 25px;}
+.major-btn li.on{background: #fdeb74;}
+.study-wrap{width: 1200px;height: 100%;}
+.major-list{position: relative;margin: 9px;width: 280px;height: 410px;float: left;}
+.major-list p{font-size: 20px;width: 240px;height: 40px;bord er: 1px solid #000;text-align: center;line-height: 2;}
+.major-list:hover{z-index: 10;font-family: 'nanumB';font-size: 25px;}
+.major-list p:after{display: block;content:"";width: 240px;height: 3px;background: #333;}
+.major-list:hover p:after{background: #0073b4;position: absolute;left: 0;top: 20px;}
+.major-list a{}
+.major-list a em{font-size: 16px;display: block;text-align: left;margin: 20px;}
+
+.special-wrap{width: 1200px;height: 100%;}
+.special-wrap .special-list{width: 1200px;height: 380px;}
+.special-wrap .special-list img{width: 390px;height: 223px;}
+.bg{background-size: cover;background: rgba(54,49,51,0.1);}
+.special-list p{font-size: 30px;margin: 20px 0 40px 0;}
+.special-list span{width: 750px;float: right;font-size: 20px;}
+.special-list em{color: #333;float: right;font-size: 18px;text-align: center;line-height: 2.2;display: block;width: 200px;height: 40px;border-radius:25px;border: 1px solid #333;margin-top: -50px;}
+.special-list em.on{background: #000;color:#fff;}
+/*동아리 club*/
+#content .campus{}
+#content .campus ul{margin-left: 856px;}
+#content .campus ul li{width: 150px;height: 40px;background: #fff192;float:left;text-align: center;margin: 40px 0px 0px 20px;}
+#content .campus ul li:hover{background: #fdeb74;}
+#content .campus ul li a{font-size: 20px;line-height: 2;}
+#content .campus h3{font-size: 30px;font-family: 'nanumB';margi n-top: 80px;margin-bottom: 40px;text-align: center;}
+#content .campus span{font-size: 20px;line-height: 2;}
+
+#content .seoul-club{margin: 40px 0 40px 0px;}
+#content .seoul-club .seoul-list{}
+#content .seoul-club .seoul-list li{float: left;text-align: center;width: 300px;height: 50px;box-sizing:border-box;line-height: 3.5;}
+#content .seoul-club .seoul-list li{border-bottom: 1px solid #000;border-left: 1px solid #000;}
+#content .seoul-club .seoul-list li:nth-child(4n){border-right: 1px solid #000;}
+#content .seoul-club .seoul-list li:nth-child(1),#content .seoul-club .seoul-list li:nth-child(2),#content .seoul-club .seoul-list li:nth-child(3),#content .seoul-club .seoul-list li:nth-child(4){border-top: 1px solid #000;}
+#content .seoul-club .seoul-list li.on{background: #0073b4;}
+#content .seoul-club .seoul-list li.on a{color:#fff;}
+#content .seoul-club .seoul-list li a{font-size: 18px;}
+
+#content .club-list{margin-top: 80px;}
+#content .type article{width: 200px;height: 200px;float: left;margin-right:38px;margin-bottom: 30px;}
+#content .type .ball{width: 1200px;height: 500px;}
+#content .type article li{border-radius: 25px;overflow: hidden;margin-bottom: 38px;margin-right: 38px;float: left;width: 200px;height: 200px;background-size:60%;border: 1px solid #666;}
+#content .type article li:hover{border: 1px solid #0073b4;}
+#content .type article li:hover a{background:rgba(255,255,250,0.4);}
+#content .type article li:hover strong,#content .type article li:hover em{color:#0073b4;}
+#content .type article a{display: block;font-size: 20px;padding: 20px;}
+#content .type article a strong{color:#666;display: block;text-align: center;margin-left: -40px;margin-top: 40px;font-family: 'nanumB';}
+#content .type article a em{color:#666;display: block;text-align: center;margin-left: -40px;margin-top: 10px;}
+#content .type .ball li:nth-child(1){background: url(../images/clubimg/tabletennis.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .ball li:nth-child(2){background: url(../images/clubimg/baseball.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .ball li:nth-child(3){background: url(../images/clubimg/soccer.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .ball li:nth-child(4){background: url(../images/clubimg/americanfootball.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .ball li:nth-child(5){background: url(../images/clubimg/basketball.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .ball li:nth-child(6){background: url(../images/clubimg/tennisball.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .social{width: 1200px;height: 250px;}
+#content .type .social li:nth-child(1){background: url(../images/clubimg/rainbow.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .social li:nth-child(2){background: url(../images/clubimg/talking.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .social li:nth-child(3){background: url(../images/clubimg/earth.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .social li:nth-child(4){background: url(../images/clubimg/talking.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .art{width: 1200px;height: 250px;}
+#content .type .art li:nth-child(1){background: url(../images/clubimg/dance.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .art li:nth-child(2){background: url(../images/clubimg/play.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .art li:nth-child(3){background: url(../images/clubimg/chorus.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .art li:nth-child(4){background: url(../images/clubimg/play.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .art li:nth-child(5){background: url(../images/clubimg/hiphop.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .traditional{width: 1200px;height: 250px;}
+#content .type .traditional li:nth-child(1){background: url(../images/clubimg/mask.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .traditional li:nth-child(2){background: url(../images/clubimg/mask.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .traditional li:nth-child(3){background: url(../images/clubimg/mask.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .religion{width: 1200px;height: 250px;}
+#content .type .religion li:nth-child(1){background: url(../images/clubimg/cross.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .religion li:nth-child(2){background: url(../images/clubimg/buddah.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .music{width: 1200px;height: 250px;}
+#content .type .music li:nth-child(1){background: url(../images/clubimg/panflute.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .music li:nth-child(2){background: url(../images/clubimg/song.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .music li:nth-child(3){background: url(../images/clubimg/guitar.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .music li:nth-child(4){background: url(../images/clubimg/rocker.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .music li:nth-child(5){background: url(../images/clubimg/guitar.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .hobby{width: 1200px;height: 250px;}
+#content .type .hobby li:nth-child(1){background: url(../images/clubimg/go.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .hobby li:nth-child(2){background: url(../images/clubimg/travel.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .hobby li:nth-child(3){background: url(../images/clubimg/game.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .hobby li:nth-child(4){background: url(../images/clubimg/unesco.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .hobby li:nth-child(5){background: url(../images/clubimg/un.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .sports{width: 1200px;height: 500px;}
+#content .type .sports  li:nth-child(1){background: url(../images/clubimg/cycle.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .sports  li:nth-child(2){background: url(../images/clubimg/hiking.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .sports  li:nth-child(3){background: url(../images/clubimg/ski.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .sports  li:nth-child(4){background: url(../images/clubimg/diving.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .sports  li:nth-child(5){background: url(../images/clubimg/yacht.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .sports  li:nth-child(6){background: url(../images/clubimg/gliding.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .study{width: 1200px;height: 500px;}
+#content .type .study li:nth-child(1){background: url(../images/clubimg/software.png) 50% 150% no-repeat;background-size:60%;} 
+#content .type .study li:nth-child(2){background: url(../images/clubimg/speaking.png) 50% 150% no-repeat;background-size:60%;} 
+#content .type .study li:nth-child(3){background: url(../images/clubimg/hardware.png) 50% 150% no-repeat;background-size:60%;} 
+#content .type .study li:nth-child(4){background: url(../images/clubimg/gamer.png) 50% 150% no-repeat;background-size:60%;} 
+#content .type .study li:nth-child(5){background: url(../images/clubimg/app.png) 50% 150% no-repeat;background-size:60%;} 
+#content .type .study li:nth-child(6){background: url(../images/clubimg/cosmos.png) 50% 150% no-repeat;background-size:60%;} 
+#content .type .study li:nth-child(7){background: url(../images/clubimg/ham.png) 50% 150% no-repeat;background-size:60%;} 
+#content .type .study li:nth-child(8){background: url(../images/clubimg/trc.png) 50% 150% no-repeat;background-size:60%;} 
+
+#content .type .culture{width: 1200px;height: 500px;}
+#content .type .culture li:nth-child(1){background: url(../images/clubimg/cartoon.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .culture li:nth-child(2){background: url(../images/clubimg/literature.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .culture li:nth-child(3){background: url(../images/clubimg/fineart.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .culture li:nth-child(4){background: url(../images/clubimg/movie.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .culture li:nth-child(5){background: url(../images/clubimg/photo.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .culture li:nth-child(6){background: url(../images/clubimg/brush.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .culture li:nth-child(7){background: url(../images/clubimg/hanbok.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .serve{width: 1200px;height: 250px;}
+#content .type .serve li:nth-child(1){background: url(../images/clubimg/volunteer.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .serve li:nth-child(2){background: url(../images/clubimg/volunteer.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .serve li:nth-child(3){background: url(../images/clubimg/volunteer.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .serve li:nth-child(4){background: url(../images/clubimg/volunteer.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .serve li:nth-child(5){background: url(../images/clubimg/volunteer.png) 50% 150% no-repeat;background-size:60%;}
+
+#content .type .etc{width: 1200px;height: 700px;}
+#content .type .etc li:nth-child(1){background: url(../images/clubimg/lecture.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(2){background: url(../images/clubimg/invent.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(3){background: url(../images/clubimg/heavymetal.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(4){background: url(../images/clubimg/triathlon.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(5){background: url(../images/clubimg/dubbing.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(6){background: url(../images/clubimg/boarder.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(7){background: url(../images/clubimg/law.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(8){background: url(../images/clubimg/cissa.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(9){background: url(../images/clubimg/badminton.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(10){background: url(../images/clubimg/discussion.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(11){background: url(../images/clubimg/church.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(12){background: url(../images/clubimg/wine.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(13){background: url(../images/clubimg/student.png) 50% 150% no-repeat;background-size:60%;}
+#content .type .etc li:nth-child(14){background: url(../images/clubimg/enterprise.png) 50% 150% no-repeat;background-size:60%;}
+/*recruit 일반전형*/
+#content .inner{position: relative;width: 1200px;margin: auto;}
+#content .inner h2{margin: 80px 0 40px 0;text-align: center;font-size: 30px;text-align: center;font-family: 'nanumB';}
+.inner p{margin-bottom: 40px;font-size: 18px;line-height: 2;}
+.inner span{font-family: 'nanumB';font-size: 25px;}
+.application{font-size: 16px;margin-top: 20px;}
+.application thead,#content .apply thead,#content .schedule thead{border-top: 2px solid #0073b4;border-bottom: 2px solid #0073b4;background: #a7c2d1;font-family: 'nanumB';}
+.application thead tr th,#content .apply tbody tr td{vertical-align: middle;padding: 5px;}
+.application tbody tr td{text-align: center;vertical-align: middle;padding: 5px;margin-left: 20px;}
+.application thead tr th,#content .application tbody tr th,#content .application tbody tr td{border: 1px solid #666;}
+.application .t1,.apply .t1{width: 10%;}
+.application .t2,.apply .t2{width: 10%;}
+.application .t3,.apply .t3{width: 25%;}
+.application .t4,.apply .t4{width: 25%;}
+.application .t5,.apply .t5{width: 10%;}
+.application .t6,.apply .t6{width: 10%;}
+.application .t7,.apply .t7{width: 10%;}
+
+#content .apply{margin: 80px 0 80px 0;font-size: 16px;}
+#content .apply thead tr th{font-family: 'nanumB';}
+#content .apply thead tr th,#content .apply tbody tr td{border: 1px solid #000;vertical-align: middle;padding: 5px;}
+#content .apply tbody tr td{text-align: center;}
+#content .inner .qualification{margin: 20px 0 80px;font-size: 20px;font-family: 'nanum';}
+
+#content .schedule{font-size: 16px;font-family: 'nanumB';}
+#content .schedule thead tr th,#content .schedule tbody tr td{border: 1px solid #000;}
+#content .inner h5{font-size: 25px;margin-bottom: 40px;}
+#content .schedule .reference{font-size: 14px;}
+
+/*research-center 연구기관*/
+.inner-1200 h2{font-size: 30px;font-family: 'nanumB';margin: 80px 0 40px;}
+.management{margin: 80px 0 0px;}
+.center{margin: 0 0 20px;}
+.center h3{background-image: url(../images/contents3/plus.png);background-repeat: no-repeat;background-size:2%;background-position: 93% 40%;width: 1200px;height: 30px;padding: 10px;font-size: 20px;color:#006CB7;border-bottom: 2px solid #ebebeb;}
+.center h3.on{background-image: url(../images/contents3/minus.png);background-repeat: no-repeat;background-size:2%;background-position: 93% 40%;color:#ea2d2e;background: #fdeb74;font-family: 'nanumB';}
+.center p{font-size: 18px;}
+.center .management p{text-indent: 20px;}
+.center em{font-size: 16px;}
+.center strong{display: block;font-size: 18px;margin: 10px 10px 10px;font-family: 'nanumB';}
+.center .additional{background: #eee;width: 1200px;padding: 10px;line-height: 2;}
+.center .fa-square{margin-top: 10px;border: none;font-size: 18px;float: left;}
+.germany em{float: left;font-size: 16px;}
+
+/*bk21*/
+.pic-wrap{position: relative;width: 1200px;height: 700px;background: #eee;}
+.pic-wrap span{position: absolute;left: 135px;top: 500px;width: 283px;height: 138px;border: 2px solid #f00;display: block;}
+.gallery{width: 900px;height: 391px;position: absolute;left: 145px;top: 55px;}
+.big-gallery{position: absolute;left: 0;top: 0px;width: 2700px;height: 391px;}
+.big-gallery li{width: 900px;height: 391px;float: left;}
+.big-gallery img{width: 900px;height: 391px;box-shadow: 4px 4px 4px 3px;}
+.small-gallery{position: absolute;left: 137px;top: 503px;width: 923px;height: 142px;margin: auto;}
+.small-gallery li{width: 281px;height: 138px;float: left;}
+.small-gallery li:nth-child(2){margin: 0 40px 0 40px;}
+.small-gallery li img{position: relative;width: 280px;height: 137px;}
+
+.bk21plus{line-height: 2.5;}
+.bk21plus .fa{margin-top: 12px;font-size: 20px;color: #006CB7;float: left;margin-right: 100px;}
+.bk21plus em{font-size: 18px;display: block;font-family: 'nanumB';float: left;}
+.bk21plus strong{font-size: 18px;display: block;float: left;}
+.organization,.team{font-size: 16px;margin-top: 20px;}
+.organization h3,.team h3{font-size: 20px;font-family: 'nanumB';}
+table thead tr th{background: #0277BD;color:#fff;}
+table thead tr th,table tbody tr td{padding: 10px;}
+table tbody{vertical-align: middle;} 
+
+/*facility 편의시설*/
+.facility-tab{}
+.facility-tab li{width: 25%;height: 40px;text-align: center;float: left;background: #fff192;}
+.facility-tab li.on{background: #fdeb74;}
+.facility-tab li a{font-size: 18px;font-family: 'nanumB';line-height: 2.3;}
+.facility-1200{margin: auto;width: 1200px;}
+
+.food-court{margin-top: 80px;}
+.food-court h3{font-size: 20px;font-family: 'nanumB';}
+.food-court .facility-list{width: 1200px;height: 250px;background: #eee;float: left;margin-bottom: 20px;}
+.food-court li p{font-size: 20px;font-family: 'nanumB';margin-bottom: 15px;}
+.food-court li img{float: left;margin: 25px;}
+.food-court li .facility-info{width: 850px;height: 200px;float: right;font-size: 18px;line-height: 2;margin: 25px 35px 0 0;}
+
+.study-room{margin-top: 80px;}
+.study-room .study-info{width: 1200px;background: #eee;height: 100%;margin-bottom: 20px;padding: 30px;}
+.study-room .fa{font-size: 20px;margin-bottom: 15px;}
+.study-room p{font-size: 18px;line-height: 2;}
+.study-room span{font-size: 16px;width: 220px;height: 25px;display: block;border: 1px solid #000;border-radius: 25px;padding: 10px;line-height: 1.8;margin-left: 900px;margin-top: 20px;}
+.study-room span:hover{border: 1px solid #000;background: #000;color:#fff;}
+.study-room table{}
+.study-room table thead tr th,.study-room table tbody tr th,.study-room table tbody tr td{border: 1px solid #000;}
+
+.culture-room{margin-top: 80px;background: #eee;}
+.culture-room img{float: left;width: 225px;height: 200px;margin: 25px;}
+.culture-room p{width: 850px;height: 200px;margin: 25px 35px 0 0;    font-size: 18px;
+    line-height: 2;float: right;}
+
+.search-seoul{margin-top: 80px;}
+.search-seoul p{font-size: 20px;font-family: 'nanumB';}
+.search-seoul table{margin-top: 20px;font-size: 16px;}
+.search-seoul table thead tr th,.search-seoul table tbody tr td{border: 1px solid #000;}
+.search-seoul .t1{width: 10%;}
+.search-seoul .t2{width: 15%;}
+.search-seoul .t3{width: 15%;}
+.search-seoul .t4{width: 15%;}
+.search-seoul .t5{width: 20%;}
+.search-seoul .t6{width: *;}
+
+/*notice 대학원 공지사항*/
+.notice-page{}
+.notice-page ul{font-size: 16px;margin-top: 40px;margin-left: 200px;}
+.notice-page ul li{width: 20px;height: 20px;float: left;padding: 10px;line-height: 1.2;text-align: center;margin: 10px;border: 1px solid #000;}
+.notice-page li.on{background: #000;color:#fff;}
+
+/*school */
+.school-1200{margin: auto;width: 1200px;}
+.school-1200 h2{margin: 80px 0 40px;text-align: center;font-size: 25px;}
+.school-1200 p{font-size: 18px;line-height: 2;}
+.school-1200 h3{margin: 80px 0 40px;font-size: 25px;}
+.diagram{width: 1200px;height: 300px;background: #eee;;}
+.edu{position: relative;margin: auto;margin-top: 40px;width: 300px;height: 300px;border-radius:50%;border: 1px solid #000;}
+.objective{position: absolute;left: 50px;top: 50px;width: 200px;font-size: 20px;height: 200px;border-radius:50%;border: 1px solid #000;background: #fff;}
+.edu span:after{position: absolute;left: 150px;top: 0;display: block;content:"";height: 300px;width: 1px;background: #000;}
+.edu em:after{position: absolute;left: 0;top: 150px;display: block;content:"";width:300px;height: 1px;background: #000;}
+.E{position: absolute;left: 0px;top: 20px;}
+.C{position: absolute;left: 200px;top: 20px;}
+.A{position: absolute;left: 0px;top: 170px;}
+.U{position: absolute;left: 190px;top: 170px;}
+.L{position: absolute;left: 100px;top: 70px;}
+.mean{font-size: 20px;}
+.Ethical{position: absolute;width: 80px;left: -200px;top: 30px;}
+.Creative{position: absolute;left: 400px;top: 30px;}
+.Action-oriented{position: absolute;width: 150px;left: -200px;top: 200px;}
+.Universal{position: absolute;left: 400px;top: 200px;}
+.Leader{position: absolute;left: 100px;top: 160px;}
+
+/*form*/
+.form-box{width: 1200px;margin: 80px auto;border: 2px solid #999;}
+.form-box h5{font-size: 25px;font-family: 'nanumB';padding: 40px;}
+.form-box strong{font-size: 20px;font-family: 'nanumB';width: 700px;margin: 20px 0 20px 50px;display: block;}
+.form-box p{width: 1000px;margin: 10px 50px;font-size: 16px;}
+#agree{width: 16px;height: 16px;margin-left: 400px;}
+label{font-size: 16px;}
+.regulation{overflow: auto;width: 1000px;height: 300px;font-size: 16px;border: 2px solid #999;margin:20px 50px;line-height: 1.8;}
+.regulation:nth-of-type(2){border: none;height: 250px;}
+.collect-join{width: 1000px;}
+#collect-agree{margin-left: 450px;}
+.enter-btn,.pass-btn{margin-left:330px;}
+.enter-btn a,.pass-btn a{font-size: 20px;font-family: 'nanumB';color:#fff;line-height: 2;}
+.next-page,.cancel{text-align: center;margin: 30px;float: left;width: 180px;height: 40px;background: #0073b4;}
+.next-page:hover,.cancel:hover{background: #ea2d2e;}
+.agree-info{width: 1000px;margin: 10px 0 25px;}
+.agree-info .a1,.agree-info .a2,.agree-info .a3{width: 33.333%;}
+
+
+/*join-form*/
+.makeID{position: relative;width: 1000px;height: 900px;margin: 80px auto;border: 2px solid #eee;}
+.makeID h3{margin: 50px;font-family: 'nanumB';}
+.makeID p{margin: 50px;font-size: 18px;line-height: 1.5;}
+.choose-type{margin: auto;background: #dbdcde;width: 900px;padding: 10px;}
+.choose-type input{width: 18px;height: 18px;}
+.choose-type label{font-size: 16px;margin-right: 40px;}
+.makeID span{display: block;content: "";background: #898b8e;width: 900px;height: 2px;position: absolute;left: 50px;top: 370px;}
+.id-info{width: 800px;padding: 50px;border: 1px solid #0073b4;margin: 50px auto;}
+.enter-info tr td{height: 20px;border: none;}
+.enter-info tr th{text-align: left;}
+.chkbox{display: block;border: 1px solid #f00;width: 17px;height: 17px;float: left;}
+.agree{background: red;}
+.enter-info strong{float: left;margin-left: 20px;}
+.choose{width: 900px;margin: 50px;background: #dbdcde;padding: 10px;}
+.choose input{width: 16px;height: 16px;}
+.pass-btn{margin-left: 230px;}
+
+/*login*/
+.log{text-align: center;}
+.log:after{display: block;content:"";width: 500px;height: 2px;background: #333;margin-top: 20px;margin-left: 300px;}
+.log-info table{width: 550px;height: 200px;margin: auto;}
+.log-info tr th{width: 150px;height: 20px;font-size: 16px;font-family: 'nanumB';}
+.log-info tr{}
+.log-info td{width: 400px;height: 18px;}
+
+.login{margin: auto;width: 500px;height: 40px;background: #228cc7;color:#fff;font-size: 17px;text-align: center;line-height: 2.5;}
+.login-link{background: #c8e7f9;float: left;width: 500px;height: 40px;margin-left: 350px;}
+.login-link a{width: 200px;line-height: 2.5;margin-left: 50px;font-size: 17px;}
+.new-join{float: right;margin-right: 50px;}
+.new-id{width: 885px;height: 150px;margin: 80px auto;}
+.new-id p{width: 800px;font-size: 16px;line-height: 1.5;}
+
+/*map*/
+.map-inner{position: relative;width: 1200px;height: 1530px;margin: auto;}
+.cam{float: right;}
+.cam p{background: #fff192;float: left;padding: 10px;font-size: 16px;text-align: center;line-height: 2;margin-left: 10px;width: 100px;height: 30px;}
+.cam p.on{background: #fdeb74;}
+.map-wrap{position: absolute;left: 0;top: 120px;}
+.map-inner h2{margin: 80px 0 60px 220px;text-align: center;font-family: 'nanumB';font-size: 30px;}
+.map-inner h2:after{display: block;content:"";width: 300px;height: 3px;background: #000;margin-left: 210px;}
+.map-inner h3{font-size: 20px;font-family: 'nanumB';margin: 40px 0 20px;}
+.map-inner h3 i{color:#c70c13;font-size: 20px;}
+.subway{width: 1200px;margin:auto;font-size: 18px;border: 1px solid #000;}
+.subway tbody{}
+.subway tbody tr{border: 1px solid #000;}
+.subway tbody tr th{color:#58671e;font-family: 'nanumB';}
+.subway tbody tr:nth-child(2) th,.subway tbody tr:nth-child(3) th{color:#000;}
+.subway tr:nth-child(4) th{color:#b67c00;}
+.subway tbody tr td{border: 1px solid #000;}
+.subway strong{}
+.subway span{color:#007bde;}
+.subway em{color:#003d6e;}
+.bus,.school-bus{font-size: 18px;line-height: 2;}
+.bus p,.school-bus p{color:#1668b1;font-family: 'nanumB';}
+.bus-line tr td{text-align: center;border: 1px solid #000;}
+.bus-add{float: left;margin-top: 30px;}
+.bus-add li{font-size: 18px;line-height: 2;}
+.bus-more{font-size: 18px;line-height: 3;text-align: center;margin-top: 30px;float: right;width: 200px;height: 50px;background: #fff192;}
+.bus-more:hover{background: #fdeb74;}
+
+/*sitemap*/
+.map-list{width: 1200px;height: 100%;}
+.map-title{color:#0769a1;font-size: 25px;font-family: 'nanumB';margin-top: 60px;width: 200px;height: 100px;border-top: 2px solid #0769a1;float: left;}
+.map-title p{margin-top: 15px;}
+.map-list ul{width: 900px;height: 100%;margin-top: 60px;border-top: 2px solid #000;float: left;}
+.map-list ul > li{width: 300px;text-align: left;font-size: 20px;font-family: 'nanumB';float: left;padding-top: 26px;}
+.map-list ul li ul{border: none;margin-top: 20px;width: 300px;height: 100%;}
+.map-list ul  li ul li{float: none;}
+.map-list ul li ul li a{font-size: 16px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

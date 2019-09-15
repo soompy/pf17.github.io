@@ -1,0 +1,49 @@
+#header{width: 100%;height: 130px;background: #fff;border-bottom: 3px solid #0769a1;}
+#header .inner-1200{width: 1200px;margin: auto;position: relative;}
+#header h1{}
+#header h1 img{background: #fff;width: 129px;height: 129px;}
+#header .top-menu{position: absolute;right: 220px;top: 20px;}
+#header .top-menu dd{float: left;margin-left: 16px;}
+#header .top-menu dd a{font-size: 15px;font-family: 'nanumB';}
+#header .search-bar{position: absolute;right: 0;top: 20px;width: 190px;height: 20px;border: 1px solid #000;}
+
+#nav{width: 1200px;height: 50px;border-bottom: 2px solid #076aa1;position: absolute;left: 0;top: 80px;}
+#gnb{position: relative;width: 100%;height: 50px;margin-left: 80px;}
+#gnb > li{float: left;margin-left: 120px;}
+#gnb li a{font-size: 18px;font-family: 'nanumB';}
+#gnb span{position: absolute;left: 0;top: 44px;margin-left: 70px;display: block;width: 190px;height: 6px;background: #076aa1;}
+#gnb > li.on a{color:#0073b4;}
+#gnb .sub-inner{position: absolute;left:0;top:53px;width: 1200px;height: 630px;z-index: 200;}
+#gnb .in-menu{position: absolute;left: 0;top:30px;padding: 0 20px 15px 30px;width: 1200px;height: 600px;}
+#gnb .in-menu ul{font-size: 16px;float: left;width: 85px;height: 260px;padding: 3px;margin-right: 100px;text-align: left;}
+#gnb .in-menu ul li{padding-top: 5px;float: left;font-size: 16px;width: 150px;height: 20px;}
+#gnb .in-menu ul li:nth-of-type(1) a{vertical-align: top;margin-right: 30px;font-family: 'nanumB';font-size: 16px;float: left;padding-bottom: 15px;}
+#gnb .in-menu ul li a{font-size: 16px;color:#000;font-family: 'nanum';}
+#nav .bg-img{
+	position: absolute;right: 30px;top: 210px;background-image: url(../images/layout/big-dragon.png);background-repeat: no-repeat;background-position: 0 0;background-size:80%;width: 300px;height: 400px;z-index: 400;
+	display: none;
+}
+.facilityInfo{margin-top: -100px;}
+.wwe{width: 400px;background: #fff;}
+.place{margin-left: 200px;margin-top: -120px;}
+
+
+
+#container{height: 100%;}
+#container:after{display: block;content:"";clear: both;}
+
+#footer{width: 100%;height: 175px;background: #0769a1;margin-top: 80px;}
+#footer .inner-wrap{width: 1200px;margin: auto;position: relative;}
+#footer h2{position: absolute;left: 0;top: 45px;}
+#footer h2 a{}
+#footer h2 a img{width: 170px;height: 97px;}
+#footer .help{position: absolute;right: 0;top: 20px;}
+#footer p{float: left;margin: 10px 20px 20px 0;}
+#footer p a{font-size: 16px;color: #e8e9e9;}
+#footer .seoul-campus{position: absolute;left: 245px;top: 90px;color: #e8e9e9;}
+#footer .anseong-campus{position: absolute;left: 245px;top: 120px;color: #e8e9e9;}
+#footer .campus{float: left;font-size: 16px;}
+#footer .campus span{float: left;font-family: 'nanumB';margin-right: 20px;}
+#footer .campus address{float: left;margin-right: 20px;}
+#footer .campus em{float: left;}
+#footer .choose_Major{ position: absolute;right: 20px;top: 90px;width: 170px;height: 30px;font-size: 16px;}

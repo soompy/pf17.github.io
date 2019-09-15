@@ -1,0 +1,7 @@
+$(function(){
+	initsub();
+})
+
+function initsub() {
+	
+}

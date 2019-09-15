@@ -1,0 +1,429 @@
+#visual{
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+}
+#visual .inner-wrap{
+    width: 1200px;
+    height: 530px;
+    margin: auto;
+}
+#visual .banner{
+    width: 100%;
+    height: 530px;
+    margin: auto;
+    position: absolute;
+    background-size:cover;
+    left: 0;
+    top: 0;
+}
+#visual .banner li:nth-child(1){
+    background-image: url(../images/main/kimhae.jpg);
+}
+#visual .banner li:nth-child(2){
+     background-image: url(../images/main/daejeon.jpg);
+}
+#visual .banner li:nth-child(3){
+     background-image: url(../images/main/yeoksam.jpg);
+}
+#visual .banner li:nth-child(4){
+     background-image: url(../images/main/youngjong.jpg);
+}
+#visual .banner li:nth-child(5){
+     background-image: url(../images/main/shinchon.jpg);
+}
+#visual .banner li:nth-child(6){
+     background-image: url(../images/main/lake.jpg);
+}
+#visual .banner li{
+	position: absolute;left: 100%;top: 0;
+	width: 100%;height: 530px;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+#visual .banner li:nth-child(1){
+	position: absolute;
+	left: 0;top: 0;
+}
+#visual .banner h2{
+	font-size: 33px;
+	position: absolute;
+	left: 450px;
+	top: 100px;	
+}
+#visual .banner li p{
+	font-size: 27px;
+	position: absolute;
+	left: 450px;
+	top: 200px;	
+	line-height: 1.2;
+}
+#visual .banner li strong{
+	font-size:25px;
+	position: absolute;
+	left: 450px;
+	top: 280px;
+	display: block;
+	line-height: 1.5;
+}
+#visual .banner li em{
+	font-size: 20px;
+	position: absolute;
+	left: 450px;
+	top: 360px;
+	line-height: 1.3;
+}
+#visual .banner li span{
+	font-size: 20px;
+	position: absolute;
+	right: 450px;
+	top: 280px;
+	line-height: 1.4;
+}
+
+#visual .inner-wrap .paging{
+    position: absolute;
+    left: 50%;
+    top: 450px;
+    margin-left:-122.5px;
+}
+#visual .inner-wrap .paging li{
+    width: 25px;
+    height: 25px;
+    border-right:50%;
+    background: wheat;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+#visual .inner-wrap .paging li.on{
+    border-radius: 25px;
+    width: 40px;
+    height: 25px;
+    background: pink;
+}
+
+#visual .inner-wrap .btn-box{}
+#visual .inner-wrap .btn-box .prev{
+    font-size: 50px;
+    position: absolute;
+    left: 200px;
+    top: 50%;
+}
+#visual .inner-wrap .btn-box .next{
+    font-size: 50px;
+    position: absolute;
+    right: 200px;
+    top: 50%;
+}
+
+#container{
+    width: 100%;
+}
+#container:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+#content{height: 100%;}
+#content .inner{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+#content .inner .cal{
+    width: 585px;
+    height: 355px;
+    border: 1px solid #333;
+    float: left;
+    position: relative;
+}
+#content .inner .cal h3{
+    font-size: 20px;
+    padding: 10px 0px 10px 50px;
+    font-family:"nanumB";
+    border-bottom: 1px solid #333;
+    margin-bottom:5px;
+}
+#content .inner .cal .month{
+    width: 35px;
+    height: 120px;
+    padding: 20px 0px 0px 50px;
+    float: left;
+}
+#content .inner .cal .month h4{
+    font-size: 16px;
+    font-family:'nanumB';
+    margin-bottom: 10px;
+}
+#content .inner .cal .month{
+	width: 200px;
+}
+#content .inner .cal .month ul{}
+#content .inner .cal .month ul li{
+	width: 250px;
+}
+#content .inner .cal .month ul li a{font-size: 16px;}
+#content .inner .cal .month span{}
+#content .inner .cal .month em{
+	background: #005067;
+	color: #fff;
+}
+#content .inner .cal .four .april{
+	background: #4d4d4d;
+	color: #fff;
+}
+#content .inner .cal .month strong{
+	background: #d6a089;
+	color: #333;
+}
+
+
+#content .inner .cal .page{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+#content .inner .cal .page .prev a{
+    position: absolute;
+    left: 10px;
+    font-family:'nanumB';
+    font-size: 16px;
+}
+#content .inner .cal .page .next a{
+    position: absolute;
+    left: 40px;
+    font-family:'nanumB';
+    font-size: 16px;
+}
+
+#content .inner .news{
+    float: left;
+    width: 585px;
+    height: 355px;
+    border: 1px solid #333;
+    margin-left: 20px;
+    position: relative;
+}
+#content .inner .news h3{
+    font-size: 20px;
+    padding: 10px 0px 10px 50px;
+    font-family:"nanumB";
+    border-bottom: 1px solid #333;
+    margin-bottom:5px;
+}
+#content .inner .news .more{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+}
+#content .inner .news .more a{
+    font-size: 20px;
+    font-family:'nanumB';
+}
+#content .inner .news .article{
+	width: 520px;
+	padding: 10px;
+}
+#content .inner .news .article li{
+	font-size: 16px;
+	padding: 8px 0px 8px 35px;
+}
+#content .inner .news .article li span{}
+#content .inner .news .article li span a{
+	font-size: 16px;
+}
+#content .inner .news .article em{float: right;}
+
+
+
+#content .inner .service{
+    width: 1200px;
+    margin: auto;
+    float: left;
+}
+#content .service .info{
+    width: 305px;
+    height: 390px;
+    float: left;
+    margin-right:140px;
+    text-align: center;
+}
+#content .service .info:last-of-type{
+    margin-right:0;
+}
+#content .service .info img{
+    margin-bottom: 20px;
+    width: 130px;
+    height: 130px;
+    margin-top: 40px;
+}
+#content .service .info h5{
+    font-size: 20px;
+    font-family:'nanumB';
+    text-align: center;
+}
+#content .service .info p{
+    width: 190px;
+    line-height: 1.5;
+    margin:20px auto;
+}
+#content .service .info span{
+    background: #d6a089;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+}
+.service .info span a{
+    font-size: 16px;
+}
+
+.event-banner{
+    width: 100%;
+    height: 315px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.add-banner{position: relative;width: 100%;height: 315px;overflow: hidden;}
+.add-banner li{position: absolute;left: 0;top: 0;width: 100%;height: 315px;background-repeat: no-repeat;background-size: cover;background-position: 0 0;font-family:'nanumB';}
+.add-banner li:nth-of-type(1){background-image: url(../images/main/event-banner1.png);}
+.add-banner li:nth-of-type(2){background-image: url(../images/main/event-banner2.png);}
+.add-banner p{text-align: center;font-size: 20px;color:#fff;margin-top: 30px;}
+.add-banner span{display: block;text-align: center;margin-top: 20px;color:#FFEB3B;font-size: 18px;}
+.add-banner em{display: block;float: left;margin: 50px 0 0 780px;border-radius:25px;background: #FF1744;width: 160px;height: 40px;text-align: center;font-size: 16px;line-height: 2.5;color:#fff;}
+.add-banner em:nth-of-type(2){margin-left: 20px;}
+.event-page{
+	position: absolute;
+    top: 35%;
+    left: 90%;
+}
+.event-page li{
+    background: #FFCDD2;
+    width: 25px;
+    height: 25px;
+    border-radius:50px;
+    margin-right: 10px;  
+    margin-top: 10px;
+}
+.event-page li.on{background: #E53935;}
+.app-story{
+    float: left;
+    padding-top: 60px;
+}
+.app-story .app{
+    width: 580px;
+    height: 255px;
+    position: relative;
+    float: left;
+}
+#content .app-story .app a{}
+#content .app-story .app a img{}
+#content .app-story .app p{
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    font-size: 35px;
+    font-family:'nanumB';
+}
+#content .app-story .app p img{
+	position: absolute;
+	left: -53px;
+	top:6px;
+}
+#content .app-story .app span{
+    position: absolute;
+    right: 30px;
+    top: 130px;
+    font-size: 16px;
+    width: 230px;
+}
+#content .app-story .story{
+	width: 582px;
+    height: 254px;
+    position: relative;
+    border: 1px solid #333;
+    float: left;
+    margin-left: 15px;
+    overflow: hidden;
+}
+#content .app-story .story h5{
+	font-size: 22px;
+	font-family: 'nanumB';
+	padding: 20px 0px 10px 20px;
+}
+#content .app-story .story .mov{position: relative;float: left;width: 582px;height: 190px;}
+.mov li{position: absolute;left: 0;top: 0;width: 850px;height: 190px;}
+iframe{position: absolute;left: 5px;top: 0;padding-left: 20px;}
+.mov p{
+	position: absolute;
+	left: 285px;
+	top: 0;
+	width: 200px;
+	font-size: 18px;
+	font-family: 'nanumB';
+}
+.mov span{
+	position: absolute;
+	left: 285px;
+	top: 35px;
+	width: 260px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.mov em{
+	background:#d6a089;
+	padding: 10px;
+	position: absolute;
+	left: 470px;
+	top: 100px;
+	width: 70px;
+	text-align: center;
+	border-radius:25px;
+}
+
+.mov-paging{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.mov-paging li{float: left;}
+.mov-paging li{
+	border-radius:50%;
+	background:#BDBDBD;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+#content .app-story .story .mov-paging li.on{background: #005067;}
+#content .icon{}
+#content .icon ul{}
+#content .icon ul li{
+	margin-top: 60px;
+	width: 230px;
+	height: 170px;
+	float: left;
+	padding-right: 70px;
+}
+#content .icon li a{
+	font-size: 16px;
+	text-align: center;
+}
+#content .icon li a img{
+	margin: auto;
+	display: block;
+}
+#content .icon li a p{
+	margin: 32px auto;
+}
+#content .icon li:nth-child(3) a p{
+	width: 180px;
+}
+#content .icon li:nth-child(4) a p{
+	width: 190px;
+}
+

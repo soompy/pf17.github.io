@@ -1,0 +1,47 @@
+#visual{width: 100%;margin-bottom: -70px;}
+video{width: 100%;margin-top: -240px;}
+#container{height: 100%;}
+#container:after{display: block;clear: both;content:"";}
+#content{width: 100%;background: #000;color: #fff;}
+h2{text-align: center;font-size: 19px;color: #fff;line-height: 1.9;text-transform: uppercase;padding: 70px 0 30px;}
+.movie{}
+.synopsis li{position: relative;float: left;overflow: hidden;width: 33.333%;height: 750px;}
+.synopsis li h3{position: absolute;top: 17%;left: 5%;z-index: 20;font-size: 20px;font-family: 'nanumB';}
+.synopsis li p{position: absolute;top: 22%;left: 5%;z-index: 20;font-size: 17px;color: #000;}
+.synopsis li img{width: 100%;height: 750px;transition:0.3s;}
+.synopsis li:hover img{transform: scale(1.2)rotate(3deg);}
+.introduce{padding: 50px 150px 0;}
+.introduce img{float: left;margin-right: 40px;}
+.introduce p{line-height: 2;font-size: 17px;}
+.introduce p:last-of-type{padding-top: 30px;}
+.actor li{position: relative;float: left;width: 20%;}
+.actor li img{float: left;width: 100%;}
+.actor div{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.6);text-align: center;} 
+.actor h3{font-size: 18px;text-align: center;color: #fff;padding: 40% 0 5% 0;}
+.actor p{font-size: 17px;}
+.quotes{position: relative;width: 100%;height: 690px;}
+.quotes ul{position: absolute;left: 17%;}
+.quotes li{float: left;width: 35%;height: 100px;padding: 5px 0 20px 100px;}
+.quotes img{float: left;padding-right: 20px;}
+.quotes p{font-family: 'nanumB';font-size: 16px;line-height: 2;}
+.quotes span{line-height: 2;}
+.quotes strong{color: #f00;}
+.quotes em{display: block;line-height: 2;}
+
+.longposter{width: 100%;}
+
+.gallery ul{position: relative;width: 100%;height: 800px;}
+.gallery li{float: left;position: relative;}
+.gallery div{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.6);}
+.gallery div p{padding: 25%;line-height: 2;font-size: 17px;text-align: center;}
+.gallery .boat{padding: 50% 25%;}
+.gallery li:nth-of-type(1){width: 32.3%;}
+.gallery li:nth-of-type(2){width: 35.7%;}
+.gallery li:nth-of-type(3){width: 31.7%;}
+.gallery li:nth-of-type(4){position: absolute;left: 0;bottom: 0;width: 32.3%;}
+.gallery li:nth-of-type(5){position: absolute;right: 8px;bottom: 0;width: 31.7%;}
+
+.real p{float: left;width: 35%;height: 720px;line-height: 2;font-size: 17px;padding: 40px;background:#fff;color:#000;background-image: url(../images/main/director.png);background-repeat: no-repeat;background-position: 0 100%;background-size:100%;}
+.real ul{float: right;width: 60%;height: 800px;}
+.real ul li{float: left;width: 33.33%;height: 400px;}
+.real ul li img{width: 100%;height: 100%;}

@@ -1,0 +1,21 @@
+#header{width: 100%;height: 210px;}
+#header .inner-wrap,#footer .inner-wrap{position: relative;width: 1400px;height: 154px;margin: auto;}
+h1 img{position: absolute;left: 45%;top: 30px;}
+dl{position: absolute;right: 0;top: 0;}
+dl dd{float: left;padding: 15px;font-size: 16px;}
+#gnb{width: 100%;position: absolute;left: 0;top: 165px;z-index: 200;}
+.menu{width: 100%;height: 45px;}
+.menu ul{margin-left: 185px;}
+.menu li{float: left;width: 146px;margin-right: 50px;}
+.menu li a{font-size: 18px;}
+.menu li:last-of-type{margin-right: 0;}
+.submenu{width: 100%;height: 280px;background: #fff;}
+.menu-inner{width: 1130px;margin-left: 150px;}
+.submenu ul{float: left;margin: 10px 30px;}
+.submenu ul:last-of-type{margin-left: 65px;margin-right: 0;}
+.submenu ul li{line-height: 2;font-size: 16px;}
+#footer{width: 100%;font-size: 16px;background: #FAFAFA;}
+.top-footer{width: 100%;height: 60px;}
+.footermenu{float: left;width: 1118px;border-bottom: 1px solid #17b6ee;margin: 12px 0 12px 12px;}.go{width: 270px;float: right;margin: 12px 0;border-bottom: 1px solid #ffc708;}
+.footermenu li,.go li{float: left;margin: 12px;text-align: center;}
+.bottom-footer p{text-align: center;line-height: 2;}

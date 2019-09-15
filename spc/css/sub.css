@@ -1,0 +1,189 @@
+.about-spc{line-height: 2;font-size: 16px;}
+.map{margin: 30px 0;}
+.nation{float: right;margin: 30px 0;background: #e8dfce;width: 700px;height: 475px;}
+.nation li{position: relative;width: 100px;height: 460px;float: left;padding: 18px;}
+.nation li img{position: absolute;left: 0;bottom: 20%;margin-left: 15%;width: 100px;height: 67px;}
+.nation li span,.nation li em{display: block;}
+.nation li span{position: absolute;left: 36%;bottom: 13%;text-align: center;font-size: 18px;}
+.nation li:nth-of-type(3) span{left: 28%;}
+.nation li em{position: absolute;left: 0;bottom: 33%;font-size: 20px;margin-left: 30%;border-radius: 9px;text-align: center;}
+.nation li:nth-of-type(1) em{width: 55px;height: 300px;background: #7dbc87;}
+.nation li:nth-of-type(2) em{width: 55px;height: 170px;background: #d3696b;}
+.nation li:nth-of-type(3) em{width: 55px;height: 50px;background: #febe8b;}
+.nation li:nth-of-type(4) em{width: 55px;height: 30px;background: #3d5b5f;}
+.nation li:nth-of-type(5) em{width: 55px;height: 80px;background: #7fbd91;}
+.present{float: left;}
+.present li{width: 168px;height: 250px;border: 1px solid #0c3084;font-size: 17px;line-height: 15;text-align: center;cursor: pointer;box-sizing:border-box;}
+.present li:nth-of-type(2){border-top: 0;border-bottom: 0;}
+.present li.on{width: 207px;color:#fff;border: 0;background: none;background-image: url(../images/contents/triangle.png);background-repeat: no-repeat;background-position: 0 0;padding-right: 15%;font-family: 'nanumB';}
+.present-info{float: right;margin: 0 30px;background: #fcfcd3;width: 1130px;height: 750px;}
+.present-info li img{float: left;width: 520px;height: 319px;margin: 0 22px 20px;}
+.present-info li p{font-size: 16px;line-height: 2;margin: 30px 25px;}
+.present-info li span{position: relative;display: block;margin: 20px 0;font-size: 16px;line-height: 2;padding: 25px;}
+.present-info li span:after{position: absolute;left: 10px;top: 14px;content:"";display: block;width: 15px;height: 3px;background: #0c3084;}
+
+.event-tab{width: 100%;height: 70px;}
+.event-tab li{width: 49.5%;height: 70px;float: left;text-align: center;font-size: 17px;line-height: 4;border: 2px solid #d5eff8;box-sizing: border-box;}
+.event-tab li:nth-of-type(1){background: url(../images/contents/spcicon.png) 40% 50% no-repeat;}
+.event-tab li:nth-of-type(2){background: url(../images/contents/happypoint.png) 36% 50% no-repeat;}
+.event-tab li.on{background-color: #d5eff8;transition: 0.5s;}
+
+.all,.happypoint{margin-top: 40px;}
+.all ul li,.happypoint li{float: left;width: 325px;height: 500px;margin: 10px;}
+.all ul li img,.happypoint li img{width: 325px;height: 325px;}
+.all ul li p,.happypoint li p{font-size: 16px;line-height: 3;background: url(../images/contents/online.png) 35% 50% no-repeat;}
+.all ul li p.store{background: url(../images/contents/store.png) 35% 50% no-repeat;}
+.all ul li h4,.happypoint li h4{font-size: 18px;line-height: 1.5;font-family: 'nanumB';}
+.all ul li span,.happypoint li span{line-height: 2;}
+.happypoint ul li p.point{background: url(../images/contents/pointlogo.png) 47% 50% no-repeat;}
+.page-number{width: 280px;height: 50px;margin: auto;padding: 60px;}
+.page-number p a{display: block;float: left;width: 20px;height: 20px;text-align: center;font-size: 16px;padding: 10px;}
+.page-number p a.on{display: block;background: #17b6ee;color: #fff;}
+
+.charity-info{position: relative;width: 100%;height: 400px;background-color: #eee;}
+.charity-info img:nth-of-type(1){position: absolute;right: 1%;top: 4%;}
+.charity-info img:nth-of-type(2){position: absolute;right: 28%;top: 40%;}
+.charity-info p{font-size: 30px;padding: 78px 0 30px 78px;color: #333;}
+.charity-info em{color: #17b6ee;}
+.charity-info span{font-size: 18px;padding-left: 78px;color: #392f2d;}
+.charity-info strong{display: block;width: 560px;padding: 15px 78px;line-height: 2;font-size: 15px;}
+.graphic{margin-top: 20px;}
+.graphic ul li:first-of-type{margin-left: 0;}
+.graphic ul li:last-of-type{margin-right: 0;}
+.graphic ul li{float: left;width: 290px;height: 395px;margin: 20px;padding-left: 30px;}
+.graphic img{margin: 20% 0 15% 17%;}
+.graphic h4{font-size: 18px;line-height: 2;font-family: 'nanumB';}
+.graphic h5{font-size: 15px;line-height: 1.5;}
+.graphic h5:after{display: block;content:"";width: 250px;height: 2px;background: #666;margin: 8px 0 8px;}
+.graphic p{float: left;font-size: 16px;line-height: 2;}
+.graphic span{transition: 0.5s;font-size: 22px;margin-left: 15px;line-height: 1.5;font-family: 'nanumB';}
+.donate{position: relative;width: 100%;height: 900px;}
+.donate-tab li{float: left;width: 33.28%;height: 50px;background: #f9e2d0;line-height: 2.5;text-align: center;font-size: 18px;cursor: pointer;}
+.donate-tab li.on{background: #FF6F00;color: #fff;}
+.donate-tab li:nth-of-type(2){border-left: 1px solid #FF6F00;border-right: 1px solid #FF6F00;}
+.donate-list{position: absolute;left: 0;top: 70px;width: 310px;height: 765px;background: #eee;}
+.donate-list li{height: 40px;border-bottom: 1px solid #666;}
+.donate-list li.on{background: #666;color:#fff;}
+.donate-show{float: right;width: 1060px;height: 715px;margin-top: 20px;}
+.spc-donate{position: absolute;left: 340px;top: 70px;}
+.donate-show dt{float: left;background: #f9e7ac;}
+.donate-show dt a{display: block;width: 26px;height: 745px;padding: 10px;border: 1px solid #ffc709;line-height: 1.5;font-size: 17px;text-align: center;}
+.nowBtn{background: #ffc709;}
+.donate-show dd{overflow: hidden;background: #e4f4fa;float: left;width: 800px;height: 765px;padding: 0;}
+.donate-show img{margin: 30px 130px;}
+.donate-show h3{margin-left: 30px;font-size: 20px;font-family: 'nanumB';}
+.donate-show p{margin: 10px 30px;font-size: 15px;line-height: 2;}
+.scholarship{position: relative;}
+.scholarship h3,.baking h3,.group-brand h3{font-family: 'nanumB';font-size: 17px;}
+.scholarship h4,.baking h4{font-size: 16px;margin-left: 25px;padding: 10px;}
+.scholarship h4:after{display: block;content:"";width: 15px;height: 4px;background: #17b6ee;position: absolute;left: 11px;top: 45px;}
+.scholarship img{float: left;margin-bottom: 20px;}
+.spc-scholarship{margin-left: 40px;}
+.scholarship p,.baking p{line-height: 1.6;font-size: 16px;}
+.baking{margin: 40px 0 0;}
+.baking li{position: relative;float: left;width: 680px;padding: 10px;}
+.baking li h4:after{display: block;content:"";width: 15px;height: 4px;background: #17b6ee;position: absolute;left: 15px;top: 25px;}
+.bread{margin-bottom: 20px;}
+.enterprise{position: relative;float: left;width: 31.7%;height: 100%;margin: 20px 20px 40px 0;border: 1px solid #999;}
+.enterprise p{width: 88.5%;height: 80px;background: ivory;font-size: 18px;padding-left: 50px;line-height: 4.5;}
+.enterprise p:after{display: block;content:"";width: 15px;height: 4px;background: #17b6ee;position: absolute;left: 25px;top: 40px;}
+.enterprise ul{}
+.enterprise ul li{border-bottom: 1px solid #999;padding: 10px;}
+.enterprise ul li img{margin: 10px 11px 20px;}
+.enterprise ul li h4{font-size: 16px;padding: 15px 0;font-family: 'nanumB';}
+.enterprise ul li span{font-size: 15px;line-height: 1.5;}
+
+.way{position: relative;width: 100%;height: 550px;background-position: 0 0;background-repeat: no-repeat;background-size: cover;}
+.spcway{background-image: url(../images/contents/spcway.png);background-position: 0 40%;}
+.spcway p{position: absolute;left: 18%;top: 60%;font-size: 18px;font-family: 'nanumB';width: 480px;height: 85px;}
+.spcway img{position: absolute;left: 18%;top: 40%;}
+.management{position: relative;width: 100%;height: 640px;background-image: url(../images/contents/baker.png);}
+.philosophy{position: absolute;left: 18%;top: 24%;width: 475px;height: 350px;background: #fff;box-shadow: 3px 3px 6px 4px #555;}
+.philosophy h3{padding: 15% 4% 1% 4%;font-size: 25px;font-family: 'nanumB';}
+.philosophy h4{padding: 2% 4%;font-size: 20px;}
+.philosophy p{padding: 3% 4%;font-size: 16px;}
+.vision{position: relative;color:#fff;background-image: url(../images/contents/global.png);}
+.vision p{position: absolute;left: 18%;top: 45%;font-size: 18px;color: #fff;font-family: 'nanumB';width: 480px;height: 85px;}
+.vision h4{padding: 10% 18%;font-size: 25px;color: #fff;}
+.vision img{position: absolute;left: 18%;top: 15%;}
+.value{position: relative;background-image: url(../images/contents/sky.png);}
+.value h3{text-align: center;color: #fff;font-size: 25px;padding: 40px;}
+.value ul{position: absolute;left: 26%;top: 15%;}
+.value li{float: left;padding: 10px;border: 3px solid #000;background-color: #fff;width: 25%;height: 320px;margin: 20px;}
+.value li h4{font-size: 19px;line-height: 2;margin: 20px 0;text-align: center;}
+.value li p{font-size: 15px;line-height: 2;}
+.value li img{padding: 30px 77px;}
+.value li:first-of-type img{padding: 57px 85px;}
+.value li:last-of-type img{padding: 52px 55px;}
+.value span{font-size: 16px;position: absolute;left: 20%;bottom: 10%;font-family: 'nanumB';}
+
+.hire-banner{position: relative;width: 100%;height: 490px;background: #ecece6;}
+.hire-banner h4{padding: 80px 14% 0;font-size: 19px;font-weight: bold;}
+.hire-banner h5{padding: 20px 14% 0;font-size: 22px;}
+.company{position: absolute;left: 14%;top: 195px;background: #ecece6;width: 840px;height: 260px;}
+.company img{float: left;padding: 85px 7px;}
+.face{position: absolute;left: 58%;top: 89px;}
+.hire-notice{width: 100%;height: 100%;margin-top: 50px;}
+.hire-notice h5{float: left;width: 210px;height: 135px;text-align: center;line-height: 7;font-size: 19px;}
+.division{width: 1000px;margin-left: 220px;}
+.division li{float: left;width: 15%;height: 135px;border: 1px solid #000;line-height: 2;}
+.division li:nth-of-type(even){border-left: none;border-right: none;}
+.division li p{display: block;text-align: center;font-size: 18px;padding: 20px 0 10px;}
+.division li span{display: block;font-size: 30px;color: #0078c2;text-align: center;}
+.hire-info{margin-top: 10px;}
+.hire-info li{position: relative;float: left;width: 400px;height: 180px;padding: 30px 27px;border: 1px solid #000;margin: 5px;cursor: pointer;}
+.appli{position: absolute;left: 0;top: 0;width: 400px;height: 180px;padding: 30px 27px;background: rgba(0,0,0,0.8);color: #fff;}
+.appli p{float: left;width: 190px;height: 190px;text-align: center;font-size: 17px;line-height: 11;cursor: pointer;}
+.appli p:first-of-type{border-right: 2px dotted #fff;}
+.name{float: left;font-size: 22px;line-height: 2;font-weight: bold;}
+.career{float: right;font-size: 20px;margin: 15px;color: #666;}
+.recruit{font-size: 20px;line-height: 1.5;margin-top: 72px;}
+.dday{font-size: 17px;margin-top: 30px;color: #666;}
+.more{float: right;width: 180px;height: 60px;margin: 20px 8px;text-align: center;line-height: 4;border: 1px solid #000;font-size: 16px;}
+.more:hover{background: #000;color: #fff;}
+.system{position: relative;width: 100%;height: 1800px;}
+.talent{position: relative;width: 740px;height: height: 723px;}
+.talent h3{text-align: center;font-size: 22px;padding: 25px;font-family: 'nanumB';}
+.talent h3:after{content: "";display: block;position: absolute;left: 43%;top: 9%;width: 100px;height: 4px;background: #727371;}
+.talent li{float: left;width: 300px;height: 440px;padding: 30px;border: 10px solid #727371;font-size: 30px;}
+.talent p{padding-top: 90px;line-height: 2;}
+.talent li:nth-of-type(2){border: none;margin-top: 140px;}
+.talent li:nth-of-type(2) p{font-size: 17px;margin-top: 30px;}
+.talent h4{font-size: 18px;float: left;width: 80px;height: 80px;margin: 9px;line-height: 4.5;text-align: center;border: 1px solid #000;border-radius: 50%;}
+.institution{position: absolute;right: 0;top: 433px;}
+.reward{position: absolute;left: 0;top: 680px;}
+.welfare{position: absolute;right: 0;top: 1100px;}
+
+.site{float: right;}
+.site li{float: left;width: 300px;height: 45px;font-size: 16px;text-align: center;line-height: 3;background: #17b6ee;color: #fff;margin: 0 16px;transition: 0.5s;}
+.site li:hover{border-radius: 55px;color: #000;background: #a9e9ff;}
+.academy,.process,.lecture{position: relative;margin: 80px 0 30px;}
+.culinary-academy h3{float: left;width: 280px;height: 300px;font-size: 18px;padding: 20px;}
+.culinary-academy h3:after{position: absolute;left: 0;top: 0;display: block;content:"";width: 280px;height: 3px;background: #a9e9ff;}
+.culinary-academy p{font-size: 17px;line-height: 2;}
+.student li{float: left;margin: 15px;}
+.curri{float: left;width: 45%;}.history{position: absolute;right: 0;top: 580px;}
+.story{float: left;width: 500px;font-size: 16px;}
+.story tr{line-height: 2;}
+.story td:nth-of-type(2){width: 78%;}
+.academy-page{position: fixed;left: 5%;top: 400px;}
+.academy-page li{width: 80px;height: 20px;text-align: center;line-height: 1.5;background: #ffc608;border: 1px solid #fff;padding: 15px;cursor: pointer;}
+.academy-page li.on{background: #E65100;color: #fff;}
+.food{margin-bottom: 80px;}
+.food li{float: left;}
+.food li:nth-of-type(2){margin: 0 25px;}
+.time{border-top: 2px solid #999;border-bottom: 2px solid #999;}
+.time li{position: relative;float: left;width: 350px;height: 100px;margin: 15px 5px;}
+.time li:nth-of-type(4){width: 710px;height: 270px;}
+.time h5{font-size: 17px;padding: 17px;}
+.time h5:after{position: absolute;left: 0;top: 18px;display: block;content:"";width: 10px;height: 10px;background: #90CAF9;}
+.time span{display: block;font-size: 16px;line-height: 2;}
+.curriculum{font-size: 16px;line-height: 1.5;}
+.curriculum td{padding: 10px;border: 1px solid #999;}
+.curriculum td:nth-of-type(1){background: #eee;}
+.curriculum td:nth-of-type(1),.curriculum td:nth-of-type(2){width: 31px;}
+.lecture{}
+.lecture h3{}
+.grade{}
+
+
